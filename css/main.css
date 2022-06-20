@@ -44,9 +44,13 @@ body{
 }
 .first-ul {
     margin-top: 64px;
+    border-left: 5px solid #5CA5A5;
 }
 .first-ul::before {
     background-image: url("../images/photoshop.svg");
+}
+.second-ul {
+    border-left: 5px solid #5CA5A5;
 }
 .second-ul::before {
     background-image: url("../images/manage.svg");
