@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.for-bgcolor {
+    padding-bottom: 120px;
+    background-color: #dbfdfd;
+}
+.container {
+    width: 1110px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.head-img {
+    width: auto;
+    height: 156px;
+    background-image: url("../images/head.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.all-ul {
+    margin: 12px auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    padding-left: 15px;
+    padding-right: 24px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
+    border-radius: 5px;
+}
+.all-ul::before {
+    display: block;
+    content: "";
+    width: 95px;
+    height: 95px;
+    margin: 0 16px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.first-ul {
+    margin-top: 64px;
+}
+.first-ul::before {
+    background-image: url("../images/photoshop.svg");
+}
+.second-ul::before {
+    background-image: url("../images/manage.svg");
+}
+.third-ul::before {
+    background-image: url("../images/account.svg");
+}
+.four-ul::before {
+    background-image: url("../images/myhome.svg");
+}
+.fifth-ul::before {
+    background-image: url("../images/loup.svg");
+}
+.sixth-ul::before {
+    background-image: url("../images/moon.svg");
+}
+.seventh-ul::before {
+    background-image: url("../images/shortly.svg");
+}
+.eight-ul::before {
+    background-image: url("../images/insure.svg");
+}
+.nineth-ul::before {
+    background-image: url("../images/eyecam.svg");
+}
+.tenth-ul::before {
+    background-image: url("../images/last.svg");
+}
+.left-li {
+    margin-right: auto;
+} 
+
+.left-li-top {
+    display: flex;
+    align-items: center;
+}
+.left-li-top-p {
+    margin-right: 16px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #5CA5A5;
+}
+.left-li-top-left-span {
+    margin-right: 8px;
+    padding: 5px 8px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: -0.0846154px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #5CA5A5;
+    border-radius: 12px;
+}
+.left-li-top-right-span {
+    padding: 5px 8px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 14px;
+    letter-spacing: -0.0846154px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #2B3939;
+    border-radius: 12px;
+}
+.left-li-h2 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #2B3939;
+    text-decoration: none;
+}
+.left-li-h2:hover {
+    color: #5CA5A5;
+}
+.left-li-buttom-box {
+    display: flex;
+    align-items: center;
+}
+.left-li-buttom-p {
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.115385px;
+    color: #7C8F8F;
+}
+.left-li-buttom-middle-p {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: -0.115385px;
+    color: #7C8F8F;
+}
+.left-li-buttom-middle-p::before {
+    display: block;
+    content: "";
+    width: 4px;
+    height: 4px;
+    margin: 0px 16px;
+    border-radius: 50%;
+    background-color: #B7C4C4;
+}
+.left-li-buttom-middle-p::after {
+    display: block;
+    content: "";
+    width: 4px;
+    height: 4px;
+    margin: 0px 16px;
+    border-radius: 50%;
+    background-color: #B7C4C4;
+}
+.right-li-button {
+    margin-right: 16px;
+    background-color: #eff0f0;
+    mix-blend-mode: normal;
+    /* opacity: 0.1; */
+    border-radius: 4px;
+
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 24px;
+    letter-spacing: -0.1px;
+    color: #5CA5A5;
+    text-decoration: none;
+    border: 0px;
+}
+.right-li-button:hover {
+    background-color: #5CA5A5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
