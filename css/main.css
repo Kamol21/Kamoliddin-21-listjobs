@@ -1,8 +1,27 @@
+@font-face {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 500;
+    src: local(''),
+         url('../fonts/league-spartan-v5-latin-500.woff2') format('woff2'),
+         url('../fonts/league-spartan-v5-latin-500.woff') format('woff');
+  }
+  @font-face {
+    font-family: 'League Spartan';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/league-spartan-v5-latin-700.woff2') format('woff2'),
+         url('../fonts/league-spartan-v5-latin-700.woff') format('woff');
+  }
+
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0px;
+    font-family: 'Spartan','Arial', sans-serif;
+    font-weight: 700;
 }
 .for-bgcolor {
     padding-bottom: 120px;
