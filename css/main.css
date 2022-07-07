@@ -20,13 +20,13 @@
             box-sizing: border-box;
 }
 body{
-    margin: 0px;
+    margin: 0;
     font-family: "League Spartan","Arial", sans-serif;
     font-weight: 700;
     background-color: #eaf8f5;
 }
 .container {
-    width: 1110px;
+    width: 1150px;
     margin: 0 auto;
     padding: 0 20px;
 }
@@ -37,12 +37,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
 }
+.intro-big-box {
+    padding: 76px 0 120px 0;
+}
 .all-ul {
-    margin: 12px auto;
-    padding-top: 22px;
-    padding-bottom: 22px;
-    padding-left: 15px;
-    padding-right: 24px;
+    margin: 0 0 24px 0;
+    padding: 32px 40px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -55,17 +55,19 @@ body{
             box-shadow: 0px 15px 20px -5px rgba(13, 113, 130, 0.15);
     border-radius: 5px;
 }
+.all-ul:last-child {
+    margin: 0;
+}
 .all-ul::before {
     display: block;
     content: "";
     width: 95px;
     height: 95px;
-    margin: 0 16px;
+    margin-right: 24px;
     background-position: center;
     background-repeat: no-repeat;
 }
 .first-ul {
-    margin-top: 64px;
     border-left: 5px solid #5CA5A5;
 }
 .first-ul::before {
@@ -106,6 +108,7 @@ body{
 } 
 
 .left-li-top {
+    padding: 5px 8px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -115,7 +118,6 @@ body{
 }
 .left-li-top-p {
     margin-right: 16px;
-    font-style: normal;
     font-size: 14px;
     line-height: 16px;
     color: #5CA5A5;
@@ -123,7 +125,6 @@ body{
 .left-li-top-left-span {
     margin-right: 8px;
     padding: 5px 8px;
-    font-style: normal;
     font-size: 11px;
     line-height: 14px;
     text-align: center;
@@ -135,7 +136,6 @@ body{
 }
 .left-li-top-right-span {
     padding: 5px 8px;
-    font-style: normal;
     font-size: 11px;
     line-height: 14px;
     letter-spacing: -0.0846154px;
@@ -165,7 +165,6 @@ body{
             align-items: center;
 }
 .left-li-buttom-p {
-    font-style: normal;
     font-size: 15px;
     line-height: 24px;
     letter-spacing: -0.115385px;
